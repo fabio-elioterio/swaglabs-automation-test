@@ -5,7 +5,7 @@ Resource       ../resources/data_test/swag_users.resource
 *** Variables ***
 ${BASE_URL}            https://www.saucedemo.com/
 ${BROWSER}             chromium
-${IS_HEADLESS}         False
+${IS_HEADLESS}         True
 
 
 *** Keywords ***
