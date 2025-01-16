@@ -43,7 +43,7 @@ jobs:
       uses: joonvena/robotframework-reporter-action@v2.4
       if: always()
       with:
-        # Token to access the API
+        # Token to access the API and report path
         gh_access_token: ${{ secrets.GITHUB_TOKEN }}
         report_path: tests/results
     
